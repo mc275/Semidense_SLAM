@@ -1,6 +1,16 @@
-## ORB_SLAM__Semi-Dense
-参考内容
+## ORB_SLAM_Semi-Dense
+Reference
+
 [Raul Mur-Artal](http://webdiis.unizar.es/~raulmur/), [Juan D. Tardos](http://webdiis.unizar.es/~jdtardos/), Probabilistic Semi-Dense Mapping from Highly Accurate Feature-Based Monocular SLAM
+
+build 
+
+```
+cd Semidense_SLAM 
+sh build.sh
+./Examples/Monocular/mono_tum Vocabulary/ORBvoc.bin ./Examples/Monocular/TUM2.yaml path_to_tum_datasets
+
+```
 
 # ORB-SLAM2
 **Authors:** [Raul Mur-Artal](http://webdiis.unizar.es/~raulmur/), [Juan D. Tardos](http://webdiis.unizar.es/~jdtardos/), [J. M. M. Montiel](http://webdiis.unizar.es/~josemari/) and [Dorian Galvez-Lopez](http://doriangalvez.com/) ([DBoW2](https://github.com/dorian3d/DBoW2))
